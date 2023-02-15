@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const title = "Title";
+const text = "Here is an interesting text";
+let likes = 20;
+let creator = "Kevin";
+const isReported = true;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +22,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(title);
+console.log(text);
+console.log(likes);
+console.log(creator);
+console.log(isReported);
+likes++;
+console.log(likes);
 // --^-- write your code here --^--
